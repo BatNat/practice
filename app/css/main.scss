@@ -1,0 +1,35 @@
+$red : #ff5252;
+
+// setups
+@import "_misc/fonts";
+@import "_misc/font-awesome";
+@import "_misc/mixins";
+@import "_misc/adjustment";
+
+
+body, html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.flex-container {
+	border: 1px dashed #000;
+}
+
+.flex-item {
+	//height: 50px;
+	font-family: "Courier New";
+	color: #ecf0f1;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+// blocks
+@import "blocks/testing";
+@import "blocks/footer";
+//@import "blocks/layout";
+@import "blocks/styling";
+@import "blocks/flex";

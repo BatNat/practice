@@ -1,0 +1,15 @@
+.page-content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-wrapper {
+  flex: 1;
+}
+
+.page-footer {
+	height: 200px;
+	background: #2c3e50;
+	color: #fff;
+}
